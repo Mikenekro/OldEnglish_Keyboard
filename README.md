@@ -21,7 +21,7 @@ NOTE: While the keyboard is enabled, you can continue typing with normal charact
 Old English character, set the 'Modifier Key'. Then hold the Modifier key + the specified key to type.
 
 
-- Instructions:
+----- Instructions -----
 Using the Old English Keyboard is simple and straighforwwrd. When the program is running, the first line displays a key combo
 that you can press to enable the Special Characters used in Old English. The current Enable/Disable combo is 'CTRL + P'.
 

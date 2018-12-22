@@ -1,0 +1,9 @@
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\Debug\OldEnglishKeyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\Debug\OldEnglishKeyboard.pdb
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.csprojResolveAssemblyReference.cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.Form1.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.Properties.Resources.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.csproj.GenerateResource.Cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.csproj.CoreCompileInputs.cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\Debug\OldEnglishKeyboard.pdb

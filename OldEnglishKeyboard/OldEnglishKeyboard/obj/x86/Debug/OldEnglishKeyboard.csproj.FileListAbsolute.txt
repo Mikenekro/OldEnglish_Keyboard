@@ -1,0 +1,11 @@
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Debug\OldEnglishKeyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Debug\OldEnglishKeyboard.pdb
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.Form1.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.Properties.Resources.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.csproj.GenerateResource.Cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.csproj.CoreCompileInputs.cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.pdb
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Debug\OldEnglishKeyboard.csprojResolveAssemblyReference.cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Debug\WindowsInput.dll
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Debug\WindowsInput.pdb

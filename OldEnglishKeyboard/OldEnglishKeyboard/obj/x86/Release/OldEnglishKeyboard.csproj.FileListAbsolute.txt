@@ -1,0 +1,17 @@
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.config
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.CodeAnalysisLog.xml
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.lastcodeanalysissucceeded
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\WindowsInput.dll
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\WindowsInput.pdb
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.Form1.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.Properties.Resources.resources
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csproj.GenerateResource.Cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csproj.CoreCompileInputs.cache
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.manifest
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.application
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.TrustInfo.xml
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe.manifest
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.application
+E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csprojResolveAssemblyReference.cache

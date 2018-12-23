@@ -15,3 +15,20 @@ E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishK
 E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe.manifest
 E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.application
 E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csprojResolveAssemblyReference.cache
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.config
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.manifest
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.application
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.CodeAnalysisLog.xml
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\Old English Keyboard.exe.lastcodeanalysissucceeded
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\WindowsInput.dll
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\bin\x86\Release\WindowsInput.pdb
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csprojResolveAssemblyReference.cache
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.Form1.resources
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.Properties.Resources.resources
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csproj.GenerateResource.Cache
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\OldEnglishKeyboard.csproj.CoreCompileInputs.cache
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.TrustInfo.xml
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe.manifest
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.application
+E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe

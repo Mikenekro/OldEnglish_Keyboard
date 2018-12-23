@@ -128,9 +128,9 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(6, 30);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(131, 29);
+            this.checkBox1.Size = new System.Drawing.Size(141, 29);
             this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Acute (F6)";
+            this.checkBox1.Text = "Accent (F6)";
             this.toolTip1.SetToolTip(this.checkBox1, "When checked, will toggle the Acute version\r\nof any character. \r\nFor Example: á o" +
         "r é");
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -262,9 +262,9 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(6, 390);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(215, 25);
+            this.label11.Size = new System.Drawing.Size(228, 25);
             this.label11.TabIndex = 7;
-            this.label11.Text = "Long G (Ċ) : CTRL + G";
+            this.label11.Text = "Dotted G (Ċ) : CTRL + G";
             // 
             // label10
             // 
@@ -272,9 +272,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(6, 350);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(215, 25);
+            this.label10.Size = new System.Drawing.Size(228, 25);
             this.label10.TabIndex = 6;
-            this.label10.Text = "Long C (Ċ) : CTRL + C";
+            this.label10.Text = "Dotted C (Ċ) : CTRL + C";
             // 
             // label9
             // 

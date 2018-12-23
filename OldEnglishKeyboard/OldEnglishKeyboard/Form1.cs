@@ -11,14 +11,14 @@ namespace OldEnglishKeyboard
     {
         private bool isOld;
         private bool isUpper;
-        private bool acute;
+        private bool accent;
 
         private InputSimulator sim;
         
         private Modifiers modKey;
 
         NativeMethods activate;
-        NativeMethods acuteHook;
+        NativeMethods accentHook;
         NativeMethods upperHook;
 
         NativeMethods thorn;
@@ -55,16 +55,16 @@ namespace OldEnglishKeyboard
         private void Form1_Load(object sender, EventArgs e)
         {
             activate = new NativeMethods((int)Modifiers.Control, Keys.P, this);
-            acuteHook = new NativeMethods((int)Modifiers.None, Keys.F6, this);
+            accentHook = new NativeMethods((int)Modifiers.None, Keys.F6, this);
             upperHook = new NativeMethods((int)Modifiers.None, Keys.F7, this);
             
             activate.Register();
-            acuteHook.Register();
+            accentHook.Register();
             upperHook.Register();
 
             isOld = false;
             isUpper = false;
-            acute = false;
+            accent = false;
             label1.Text = "Old English is Off";
         }
 
@@ -197,7 +197,7 @@ namespace OldEnglishKeyboard
             else
                 val = modKey.ToString().ToUpper();
 
-            label19.Text = "Variant: " + ((acute) ? ("Acute") : ("Macron"));
+            label19.Text = "Variant: " + ((accent) ? ("Accent") : ("Macron"));
 
             // label4 = label17
             label4.Text = "Thorn (" + ((isUpper)?("Þ"):("þ")) + ") : " + ((modKey != Modifiers.None)?(val + " + "):("")) + "T";
@@ -208,12 +208,12 @@ namespace OldEnglishKeyboard
             label9.Text = "OE Normal (" + ((isUpper) ? ("Œ") : ("œ")) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "3";
             label10.Text = "Long C (" + ((isUpper) ? ("Ċ") : ("ċ")) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "C";
             label11.Text = "Long G (" + ((isUpper) ? ("Ġ") : ("ġ")) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "G";
-            label12.Text = "(" + ((isUpper) ? ( ((acute)?("Á") :("Ā")) ) : ( ((acute)?("á") :("ā")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "A";
-            label13.Text = "(" + ((isUpper) ? ( ((acute)?("É") :("Ē")) ) : ( ((acute)?("é") :("ē")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "E";
-            label14.Text = "(" + ((isUpper) ? ( ((acute)?("Í") :("Ī")) ) : ( ((acute)?("í") :("ī")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "I";
-            label15.Text = "(" + ((isUpper) ? ( ((acute)?("Ó") :("Ō")) ) : ( ((acute)?("ó") :("ō")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "O";
-            label16.Text = "(" + ((isUpper) ? ( ((acute)?("Ú") :("Ū")) ) : ( ((acute)?("ú") :("ū")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "U";
-            label17.Text = "(" + ((isUpper) ? ( ((acute)?("Ý") :("Ȳ")) ) : ( ((acute)?("ý") :("ȳ")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "Y";
+            label12.Text = "(" + ((isUpper) ? ( ((accent)?("Á") :("Ā")) ) : ( ((accent)?("á") :("ā")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "A";
+            label13.Text = "(" + ((isUpper) ? ( ((accent)?("É") :("Ē")) ) : ( ((accent)?("é") :("ē")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "E";
+            label14.Text = "(" + ((isUpper) ? ( ((accent)?("Í") :("Ī")) ) : ( ((accent)?("í") :("ī")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "I";
+            label15.Text = "(" + ((isUpper) ? ( ((accent)?("Ó") :("Ō")) ) : ( ((accent)?("ó") :("ō")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "O";
+            label16.Text = "(" + ((isUpper) ? ( ((accent)?("Ú") :("Ū")) ) : ( ((accent)?("ú") :("ū")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "U";
+            label17.Text = "(" + ((isUpper) ? ( ((accent)?("Ý") :("Ȳ")) ) : ( ((accent)?("ý") :("ȳ")) )) + ") : " + ((modKey != Modifiers.None) ? (val + " + ") : ("")) + "Y";
 
         }
 
@@ -273,7 +273,7 @@ namespace OldEnglishKeyboard
             if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.F6))
             {
                 checkBox1.Checked = !checkBox1.Checked;
-                acute = checkBox1.Checked;
+                accent = checkBox1.Checked;
                 UpdateModLabels(false);
             }
 
@@ -385,7 +385,7 @@ namespace OldEnglishKeyboard
                         sim.Keyboard.TextEntry("3");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_A) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_A) && !accent)
             {
                 if (isOld)
                 {
@@ -400,7 +400,7 @@ namespace OldEnglishKeyboard
                     sim.Keyboard.TextEntry("a");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_E) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_E) && !accent)
             {
                 if (isOld)
                 {
@@ -415,7 +415,7 @@ namespace OldEnglishKeyboard
                     sim.Keyboard.TextEntry("e");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_I) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_I) && !accent)
             {
                 if (isOld)
                 {
@@ -430,7 +430,7 @@ namespace OldEnglishKeyboard
                     sim.Keyboard.TextEntry("i");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_O) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_O) && !accent)
             {
                 if (isOld)
                 {
@@ -445,7 +445,7 @@ namespace OldEnglishKeyboard
                     sim.Keyboard.TextEntry("o");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_U) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_U) && !accent)
             {
                 if (isOld)
                 {
@@ -460,7 +460,7 @@ namespace OldEnglishKeyboard
                     sim.Keyboard.TextEntry("u");
                 }
             }
-            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_Y) && !acute)
+            else if (sim.InputDeviceState.IsHardwareKeyDown(VirtualKeyCode.VK_Y) && !accent)
             {
                 if (isOld)
                 {
@@ -509,7 +509,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // A with Acute
+                    // A with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00e1");
                     else
@@ -524,7 +524,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // E with Acute
+                    // E with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00e9");
                     else
@@ -539,7 +539,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // I with Acute
+                    // I with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00ed");
                     else
@@ -554,7 +554,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // O with Acute
+                    // O with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00f3");
                     else
@@ -569,7 +569,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // U with Acute
+                    // U with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00fa");
                     else
@@ -584,7 +584,7 @@ namespace OldEnglishKeyboard
             {
                 if (isOld)
                 {
-                    // Y with Acute
+                    // Y with Accent
                     if (!isUpper)
                         sim.Keyboard.TextEntry("\u00fd");
                     else
@@ -600,20 +600,14 @@ namespace OldEnglishKeyboard
 
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-                acute = true;
-            else
-                acute = false;
+            accent = checkBox1.Checked;
 
             UpdateModLabels(false);
         }
 
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox2.Checked)
-                isUpper = true;
-            else
-                isUpper = false;
+            isUpper = checkBox2.Checked;
 
             UpdateModLabels(false);
         }
@@ -663,7 +657,7 @@ namespace OldEnglishKeyboard
             //Console.WriteLine("Closing System... Disabling all hooks");
 
             activate.Unregister();
-            acuteHook.Unregister();
+            accentHook.Unregister();
             upperHook.Unregister();
 
             Disable();

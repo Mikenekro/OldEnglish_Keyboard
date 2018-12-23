@@ -21,10 +21,10 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\OldEnglishKeyboard
 DisableProgramGroupPage=yes
-LicenseFile=E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\license.txt
-OutputDir=E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\Output
+LicenseFile=E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\license.txt
+OutputDir=E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\Output
 OutputBaseFilename=OEKeySetup
-SetupIconFile=E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\icon_IwL_icon.ico
+SetupIconFile=E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\icon_IwL_icon.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -35,8 +35,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe"; DestDir: "{app}";
-Source: "E:\MikeGlidden\Desktop\Old English\Typing Program\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\WindowsInput.dll"; DestDir: "{app}"; 
+Source: "E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\Old English Keyboard.exe"; DestDir: "{app}"; Flags: ignoreversion;
+Source: "E:\MikeGlidden\Desktop\Resume\Cover Letter & Others\Game Resume\The Quest for Gold (Game)\OldEnglish_Keyboard\OldEnglishKeyboard\OldEnglishKeyboard\obj\x86\Release\WindowsInput.dll"; DestDir: "{app}"; Flags: ignoreversion;
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

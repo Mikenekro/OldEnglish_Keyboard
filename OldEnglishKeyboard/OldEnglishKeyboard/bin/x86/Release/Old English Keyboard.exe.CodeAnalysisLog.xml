@@ -12,7 +12,7 @@
          <Members>
           <Member Name="#.ctor(System.Int32,System.Windows.Forms.Keys,System.Windows.Forms.Form)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-12-23 21:45:19Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-12-23 21:51:15Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning">'NativeMethods.NativeMethods(int, Keys, Form)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;NativeMethods..ctor(Int32, Keys, Form)&#xD;&#xA;Object.GetHashCode():Int32</Issue>
             </Message>
            </Messages>
